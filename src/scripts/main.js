@@ -1,0 +1,1 @@
+const omelhor = 1;
