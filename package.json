@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel src/styles/main.scss src/index.html src/scripts/main.js",
+    "build": "parcel src/styles/main.scss src/index.html src/scripts/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

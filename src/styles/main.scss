@@ -1,41 +1,12 @@
+@use 'secao1';
+@use 'secao2';
+@use 'secao3';
+@use 'header';
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-}
-
-.sec1 {
-    max-width: 100vw;
-    max-height: 100vh
-}
-
-.main {
-    min-height: 100vh;
-    // background: url(../images/Holidays_Cakes_Candles_Birthday_English_527925_1920x1080.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: red;
-    align-items: center;
-    &__container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        
-        &::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-color: rgba(0, 0, 0, 0.5); /* Cor preta com 50% de opacidade */
-            pointer-events: none;
-        }
-    }
-}
-
-.img {
-    width: 100%;
-    display: block;
+    font-family: 'Roboto';
+    scroll-behavior: smooth;
 }
