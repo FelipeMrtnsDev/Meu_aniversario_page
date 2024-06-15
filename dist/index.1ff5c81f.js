@@ -1,0 +1,2 @@
+const evento=new Date("Feb 24, 2025 06:00:00"),stampEvento=evento.getTime(),contaAsHoras=setInterval((function(){const e=(new Date).getTime(),t=stampEvento-e,o=864e5,n=36e5,a=Math.floor(t/o),r=Math.floor(t%o/n),s=Math.floor(t%n/6e4),c=Math.floor(t%6e4/1e3),l=document.getElementById("contador");l.innerHTML=`${a}d ${r}h ${s}m ${c}s`,a<0&&(clearInterval(contaAsHoras),l.innerHTML="Evento expirado")}),1e3);
+//# sourceMappingURL=index.1ff5c81f.js.map
